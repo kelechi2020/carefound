@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block alert %}
+{% if success %}
+{% include 'index_inner_inner.html' %}
+{% else %}
+
+    <script>
+    alert('Your application was not successful')
+    </script>
+{% endif %}
+{% endblock %}

@@ -62,7 +62,8 @@ def page(request):
                                       communication_means1=communication_means1)
 
         new_applicant.save()
-        return HttpResponse('Developer Added')
+        success = 1
+        return render(request, 'index_inner.html', {'success': success})
     else:
         return render(request, 'index.html')
 
