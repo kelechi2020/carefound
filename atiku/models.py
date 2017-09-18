@@ -34,7 +34,7 @@ class ApplicantInfo (models.Model):
     communication_means2 = models.NullBooleanField(verbose_name='Second Means Of Communication')
 
     def __str__(self):
-        return self.first_name + '  ' + self.last_name + '   '  + 'From ' + self.state + '  ' + 'State' + '  ' + self.local_government
+        return self.first_name + ' ' + self.last_name + '  ' + '-- ' + self.state + '  ' + 'State,' + '  ' + self.local_government + ' ' +'Local Government'
 
 class LocalGovernment(models.Model):
     name = models.CharField(max_length=50)
