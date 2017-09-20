@@ -3,7 +3,6 @@ from django import forms
 from django.core.urlresolvers import reverse_lazy
 from django.http.response import HttpResponse
 from django.shortcuts import render
-from django.views.generic.edit import FormView
 
 from atiku.models import ApplicantInfo, STATE_CHOICE
 

@@ -12693,7 +12693,7 @@ body {
       text-align: right; }
       .cascading-admin-card .admin-up .data p {
         color: #999999;
-        font-size: 12px; }
+        font-size: unset; }
 
 .classic-admin-card .card-block {
   color: #fff;

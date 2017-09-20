@@ -140,7 +140,6 @@
                 </div>
             </div>
 
-            <a href="../../../../product/admin-theme/index.html" type="button" class="btn light-blue darken-2 btn-block">Buy now</a>
         </div>
     </div>
     <!-- /.Customizer -->
@@ -152,25 +151,14 @@
             <!-- Logo -->
             <li>
                 <div class="user-box">
-                    <img src="{% static 'material/img/Avatars/avatar-5.jpg' %}" class="img-fluid rounded-circle">
-                    <p class="user text-center black-text">Jane Doe</p>
+                    <img src="{% static 'images/logo.jpg' %}" class="img-fluid rounded-circle">
+                    <p class="user text-center black-text">Admin</p>
                 </div>
             </li>
             <!--/. Logo -->
             <!-- Side navigation links -->
             <li>
                 <ul class="collapsible collapsible-accordion">
-                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-code"></i> Dashboards<i class="fa fa-angle-down rotate-icon"></i></a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li><a href="home.html" class="waves-effect">Dahboard v1</a>
-                                </li>
-                                <li><a href="home%20v2.html" class="waves-effect">Dahboard v2</a>
-                                </li>
-                                <li><a href="home%20v3.html" class="waves-effect">Dahboard v3</a>
-                                </li>
-                            </ul>
-                        </div></li>
                     <li><a href="analytics.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-pie-chart"></i> Analytics</a>
                     <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-code"></i> Creators<i class="fa fa-angle-down rotate-icon"></i></a>
                         <div class="collapsible-body">
@@ -226,39 +214,18 @@
             
             <!-- Breadcrumb-->
             <ol class="breadcrumb hidden-lg-down">
-                <li class="breadcrumb-item active"><a href="#">Dashboards</a></li>
-                <li class="breadcrumb-item active">Atiku Cares Data Analytics</li>
+                <li class="breadcrumb-item active"><a href="#">Atiku Cares</a></li>
+                <li class="breadcrumb-item active">Data Analytics System</li>
             </ol>
             
             <!--Navbar links-->
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link">
-                        <span class="badge red">9 </span> <i class="fa fa-upload"></i>
-                        <span class="hidden-sm-down">Publish changes</span>
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="badge red">99</span> <i class="fa fa-bell"></i>
-                        <span class="hidden-sm-down">Notifications</span>
-                    </a>
-                    <div class="dropdown-menu header-notifications animated dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <ul>
-                            <li class="active-notification"><i class="fa fa-user" aria-hidden="true"></i> New order received <span class="float-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 13 min</span></li>
-                            <li class="active-notification"><i class="fa fa-user" aria-hidden="true"></i> New order received <span class="float-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 51 min</span></li>
-                            <li class="active-notification"><i class="fa fa-bullhorn" aria-hidden="true"></i> Your campaign is about to end <span class="float-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 hours</span></li>
-                            <li class="active-notification"><i class="fa fa-line-chart" aria-hidden="true"></i> Raport is ready to be downloaded <span class="float-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 day</span></li>
-                            <li class="active-notification"><i class="fa fa-life-saver" aria-hidden="true"></i> Something else <span class="float-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 day</span></li>
-                        </ul>
-                    </div>
+                    <a class="nav-link"><i class="fa fa-home"></i> <span class="hidden-sm-down">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-envelope"></i> <span class="hidden-sm-down">Contact</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-comments-o"></i> <span class="hidden-sm-down">Support</span></a>
+                    <a class="nav-link"><i class="fa fa-connectdevelop"></i> <span class="hidden-sm-down">Admin Panel</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -266,7 +233,6 @@
                     </a>
                     <div class="dropdown-menu dropdown-ins dropdown-menu-right" aria-labelledby="userDropdown">
                         <a class="dropdown-item" href="#">Log Out</a>
-                        <a class="dropdown-item" href="#">My account</a>
                     </div>
                 </li>
             </ul>
@@ -284,8 +250,8 @@
         <div class="container-fluid">
 
             <!--Section heading-->
-            <h4 class="text-left">Your business is growing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <h4 class="text-left font-weight-bold">Participants Summary By State</h4>
+            <p class="font-italic">Please Click On State For More Details  </p>
             <hr>
             <br>
 
@@ -293,9 +259,10 @@
             <section class="section section-intro">
 
                 <!--First row-->
-                <div class="row">
+                <div class="row ">
+                        {% for state in states %}
                     <!--First column-->
-                    <div class="col-md-3 mb-1">
+                    <div class="col-md-4 mb-3 ms-2 view overlay hm-blue-strong hoverable">
                         <!--Card-->
                         <div class="card card-cascade cascading-admin-card">
 
@@ -303,8 +270,8 @@
                             <div class="admin-up">
                                 <i class="fa fa-money blue darken-3"></i>
                                 <div class="data">
-                                    <p> SALES</p>
-                                    <h3>2000$</h4>
+                                    <p class="font-weight-bold"> {{ state.name }} State</p>
+                                    <h3>Number Of participants will appear here</h4>
                                 </div>
                             </div>
                             <!--/.Card Data-->
@@ -318,495 +285,19 @@
                                 <p class="card-text">Better than last week (25%)</p>
                             </div>
                             <!--/.Card content-->
-
                         </div>
                         <!--/.Card-->
                     </div>
                     <!--/First column-->
 
-                    <!--Second column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-line-chart deep-purple darken-4"></i>
-                                <div class="data">
-                                    <p> SUBSCRIPTIONS</p>
-                                    <h3>200</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Worse than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Second column-->
-
-                    <!--Third column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-pie-chart indigo"></i>
-
-                                <div class="data">
-                                    <p> TRAFFIC</p>
-                                    <h3>20000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (75%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Third column-->
-
-                    <!--Fourth column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-bar-chart purple"></i>
-                                <div class="data">
-                                    <p>ORGANIC TRAFFIC</p>
-                                    <h3>2000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Fourth column-->
-
+                    {% endfor %}
                 </div>
 
             </section>
-                <section class="section section-intro">
-                <!--/First row-->
 
-                    <!--First row-->
-                <div class="row">
-                    <!--First column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-money blue darken-3"></i>
-                                <div class="data">
-                                    <p> SALES</p>
-                                    <h3>2000$</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/First column-->
-
-                    <!--Second column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-line-chart deep-purple darken-4"></i>
-                                <div class="data">
-                                    <p> SUBSCRIPTIONS</p>
-                                    <h3>200</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Worse than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Second column-->
-
-                    <!--Third column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-pie-chart indigo"></i>
-                                <div class="data">
-                                    <p> TRAFFIC</p>
-                                    <h3>20000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (75%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Third column-->
-
-                    <!--Fourth column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-bar-chart purple"></i>
-                                <div class="data">
-                                    <p>ORGANIC TRAFFIC</p>
-                                    <h3>2000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Fourth column-->
-
-                </div>
-                <!--/First row-->
-
-            </section>
-            <!--/Section: Intro-->
 <!-- section intro 2 -->
 
             <!--Section: Intro-->
-            <section class="section section-intro">
-
-                <!--First row-->
-                <div class="row">
-                    <!--First column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-money blue darken-3"></i>
-                                <div class="data">
-                                    <p> SALES</p>
-                                    <h3>2000$</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/First column-->
-
-                    <!--Second column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-line-chart deep-purple darken-4"></i>
-                                <div class="data">
-                                    <p> SUBSCRIPTIONS</p>
-                                    <h3>200</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Worse than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Second column-->
-
-                    <!--Third column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-pie-chart indigo"></i>
-                                <div class="data">
-                                    <p> TRAFFIC</p>
-                                    <h3>20000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (75%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Third column-->
-
-                    <!--Fourth column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-bar-chart purple"></i>
-                                <div class="data">
-                                    <p>ORGANIC TRAFFIC</p>
-                                    <h3>2000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Fourth column-->
-
-                </div>
-
-            </section>
-                <section class="section section-intro">
-                <!--/First row-->
-
-                    <!--First row-->
-                <div class="row">
-                    <!--First column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-money blue darken-3"></i>
-                                <div class="data">
-                                    <p> SALES</p>
-                                    <h3>2000$</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/First column-->
-
-                    <!--Second column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-line-chart deep-purple darken-4"></i>
-                                <div class="data">
-                                    <p> SUBSCRIPTIONS</p>
-                                    <h3>200</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Worse than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Second column-->
-
-                    <!--Third column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-pie-chart indigo"></i>
-                                <div class="data">
-                                    <p> TRAFFIC</p>
-                                    <h3>20000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (75%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Third column-->
-
-                    <!--Fourth column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card-->
-                        <div class="card card-cascade cascading-admin-card">
-
-                            <!--Card Data-->
-                            <div class="admin-up">
-                                <i class="fa fa-bar-chart purple"></i>
-                                <div class="data">
-                                    <p>ORGANIC TRAFFIC</p>
-                                    <h3>2000</h4>
-                                </div>
-                            </div>
-                            <!--/.Card Data-->
-
-                            <!--Card content-->
-                            <div class="card-block">
-                                <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <!--Text-->
-                                <p class="card-text">Better than last week (25%)</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Fourth column-->
-
-                </div>
-                <!--/First row-->
-
-            </section>
 
 <!-- section intro 2 end -->
             <!--Section: Main Chart-->
