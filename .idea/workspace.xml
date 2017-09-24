@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20806b9f-1876-4630-96a1-0d3c73d0790c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/static/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atiku/view/generatestate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/generate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/localgovernments.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/migrations/0003_auto_20170915_0412.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/migrations/0004_auto_20170915_1115.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/migrations/0006_applicantinfo_sex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/migrations/0007_auto_20170917_0150.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/migrations/0009_auto_20170917_1708.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/atiku/static/images/logo.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/atiku/migrations/0002_auto_20170915_0412.py" afterPath="$PROJECT_DIR$/atiku/migrations/0002_auto_20170921_0435.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/atiku/migrations/0005_auto_20170916_0629.py" afterPath="$PROJECT_DIR$/atiku/migrations/0003_auto_20170921_0440.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/atiku/migrations/0008_auto_20170917_1553.py" afterPath="$PROJECT_DIR$/atiku/migrations/0004_auto_20170921_0526.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d94234c7-a37f-403b-88ab-38cb1ad88946.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d94234c7-a37f-403b-88ab-38cb1ad88946.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/atiku/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/models.py" afterPath="$PROJECT_DIR$/atiku/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/view/localgovanalysis.py" afterPath="$PROJECT_DIR$/atiku/view/localgovanalysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/view/visualize.py" afterPath="$PROJECT_DIR$/atiku/view/visualize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atiku/views.py" afterPath="$PROJECT_DIR$/atiku/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atikucare/settings.py" afterPath="$PROJECT_DIR$/atikucare/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atikucare/urls.py" afterPath="$PROJECT_DIR$/atikucare/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codes.py" afterPath="$PROJECT_DIR$/codes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home v3.html" afterPath="$PROJECT_DIR$/templates/home v3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-    </list>
+    <list default="true" id="20806b9f-1876-4630-96a1-0d3c73d0790c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/atikucare/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
-              <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+              <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -113,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/atiku/view/localgovanalysis.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -131,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="localgovernments.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="localgovernments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/localgovernments.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -145,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,17 +140,17 @@
         <entry file="file://$PROJECT_DIR$/atiku/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
-              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+              <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atikucare/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -614,8 +587,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.37251908" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22749591" sideWeight="0.42366412" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35188216" sideWeight="0.4389313" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.6274809" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.4389313" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.6274809" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20763358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2167939" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1042,7 +1015,7 @@
     <entry file="file://$PROJECT_DIR$/atiku/view/localgovanalysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1062,15 +1035,7 @@
     <entry file="file://$PROJECT_DIR$/atiku/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
-          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atikucare/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1078,7 +1043,7 @@
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1086,7 +1051,7 @@
     <entry file="file://$PROJECT_DIR$/atikucare/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+          <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1103,6 +1068,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="230" column="36" lean-forward="false" selection-start-line="230" selection-start-column="36" selection-end-line="230" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atikucare/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
