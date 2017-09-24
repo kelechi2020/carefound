@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20806b9f-1876-4630-96a1-0d3c73d0790c" name="Default" comment="" />
+    <list default="true" id="20806b9f-1876-4630-96a1-0d3c73d0790c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atikucare/settings.py" afterPath="$PROJECT_DIR$/atikucare/settings.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +77,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atikucare/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+            <state relative-caret-position="216">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -95,31 +97,15 @@
       <file leaf-file-name="home v3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home v3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="227" column="35" lean-forward="false" selection-start-line="227" selection-start-column="35" selection-end-line="227" selection-end-column="35" />
+            <state relative-caret-position="295">
+              <caret line="248" column="0" lean-forward="true" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
               <folding>
-                <marker date="1506229673353" expanded="true" signature="28532:28607" ph="..." />
-                <marker date="1506229673353" expanded="true" signature="29129:32054" ph="..." />
-                <marker date="1506229673353" expanded="true" signature="29152:32039" ph="{...}" />
-                <marker date="1506229673353" expanded="true" signature="29177:30235" ph="{...}" />
-                <marker date="1506229673353" expanded="true" signature="29295:30221" ph="[...]" />
-                <marker date="1506229673353" expanded="true" signature="29296:29787" ph="{&quot;label&quot;: &quot;My First dataset&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="29789:30220" ph="{&quot;label&quot;: &quot;My Second dataset&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="30265:30707" ph="[...]" />
-                <marker date="1506229673353" expanded="true" signature="30266:30410" ph="{&quot;color&quot;: &quot;##F7464A&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="30412:30557" ph="{&quot;color&quot;: &quot;##46BFBD&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="30559:30706" ph="{&quot;color&quot;: &quot;##FDB45C&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="30734:31140" ph="{&quot;scaleFontColor&quot;: &quot;##fff&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="31155:31392" ph="//..." />
-                <marker date="1506229673353" expanded="true" signature="32068:32372" ph="..." />
-                <marker date="1506229673353" expanded="true" signature="32091:32357" ph="{...}" />
-                <marker date="1506229673353" expanded="true" signature="32146:32345" ph="{&quot;barColor&quot;: &quot;##4caf50&quot;...}" />
-                <marker date="1506229673353" expanded="true" signature="32237:32331" ph="{...}" />
-                <marker date="1506229673353" expanded="true" signature="32386:32857" ph="..." />
-                <marker date="1506229673353" expanded="true" signature="32545:32604" ph="{...}" />
-                <marker date="1506229673353" expanded="true" signature="32740:32843" ph="{...}" />
-                <marker date="1506229673353" expanded="true" signature="33246:33378" ph="..." />
-                <marker date="1506229673353" expanded="true" signature="33268:33363" ph="{...}" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -306,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="atikucare" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="atiku" />
+              <option name="myItemId" value="atikucare" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -575,6 +561,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -583,7 +570,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22749591" sideWeight="0.42366412" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35188216" sideWeight="0.4389313" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.6274809" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32242227" sideWeight="0.6274809" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20763358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2167939" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1036,37 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home v3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="227" column="35" lean-forward="false" selection-start-line="227" selection-start-column="35" selection-end-line="227" selection-end-column="35" />
-          <folding>
-            <marker date="1506229673353" expanded="true" signature="28532:28607" ph="..." />
-            <marker date="1506229673353" expanded="true" signature="29129:32054" ph="..." />
-            <marker date="1506229673353" expanded="true" signature="29152:32039" ph="{...}" />
-            <marker date="1506229673353" expanded="true" signature="29177:30235" ph="{...}" />
-            <marker date="1506229673353" expanded="true" signature="29295:30221" ph="[...]" />
-            <marker date="1506229673353" expanded="true" signature="29296:29787" ph="{&quot;label&quot;: &quot;My First dataset&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="29789:30220" ph="{&quot;label&quot;: &quot;My Second dataset&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="30265:30707" ph="[...]" />
-            <marker date="1506229673353" expanded="true" signature="30266:30410" ph="{&quot;color&quot;: &quot;##F7464A&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="30412:30557" ph="{&quot;color&quot;: &quot;##46BFBD&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="30559:30706" ph="{&quot;color&quot;: &quot;##FDB45C&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="30734:31140" ph="{&quot;scaleFontColor&quot;: &quot;##fff&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="31155:31392" ph="//..." />
-            <marker date="1506229673353" expanded="true" signature="32068:32372" ph="..." />
-            <marker date="1506229673353" expanded="true" signature="32091:32357" ph="{...}" />
-            <marker date="1506229673353" expanded="true" signature="32146:32345" ph="{&quot;barColor&quot;: &quot;##4caf50&quot;...}" />
-            <marker date="1506229673353" expanded="true" signature="32237:32331" ph="{...}" />
-            <marker date="1506229673353" expanded="true" signature="32386:32857" ph="..." />
-            <marker date="1506229673353" expanded="true" signature="32545:32604" ph="{...}" />
-            <marker date="1506229673353" expanded="true" signature="32740:32843" ph="{...}" />
-            <marker date="1506229673353" expanded="true" signature="33246:33378" ph="..." />
-            <marker date="1506229673353" expanded="true" signature="33268:33363" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/localgovernments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1082,10 +1038,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home v3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="248" column="0" lean-forward="true" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atikucare/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding />
         </state>
       </provider>
