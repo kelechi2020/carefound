@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Atiku Care Data Management System</title>
-    
+
     <!-- Meta OG -->
     <meta property="og:title" content="Responsive Admin Dashboard Template">
     <meta property="og:description" content="Proper data categorization and intuitive layout might go a long way when it comes to creating your dashboard.">
@@ -27,7 +27,7 @@
 	<meta name="twitter:image" content="../../../../img/Live/MDB/admin-homev3.jpg" />
 	<meta name="twitter:creator" content="@MDBootstrap" />
 	<!-- /Twitter Card -->
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{% static 'material/font/font-awesome.min.css' %}">
     <!-- Bootstrap core CSS -->
@@ -202,22 +202,22 @@
             <div class="sidenav-bg mask-strong"></div>
         </ul>
         <!--/. Sidebar navigation -->
-        
+
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar double-nav">
-           
+
             <!-- SideNav slide-out button -->
             <div class="float-left">
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
-                
+
             </div>
-            
+
             <!-- Breadcrumb-->
             <ol class="breadcrumb hidden-lg-down">
                 <li class="breadcrumb-item active"><a href="#">Atiku Cares</a></li>
                 <li class="breadcrumb-item active">Data Analytics System</li>
             </ol>
-            
+
             <!--Navbar links-->
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
 
@@ -225,10 +225,10 @@
                     <a href="{% url 'home' %}" class="nav-link"><i class="fa fa-home"></i> <span class="hidden-sm-down">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="/admin" class="nav-link"><i class="fa fa-connectdevelop"></i> <span class="hidden-sm-down">Admin Panel</span></a>
+                    <a  href="{% url 'visualize' %}" class="nav-link"><i class="fa fa-connectdevelop"></i> <span class="hidden-sm-down">Admin Panel</span><a/>
                 </li>
-                 <li class="nav-item">
-                    <a  href="{% url 'visualize' %}" class="nav-link"><i class="fa fa-connectdevelop"></i> <span class="hidden-sm-down">Apllicants Summary</span><a/>
+                <li class="nav-item">
+                    <a  href="/admin" class="nav-link"><i class="fa fa-connectdevelop"></i> <span class="hidden-sm-down">Apllicants Summary</span><a/>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -240,10 +240,10 @@
                 </li>
             </ul>
             <!--/Navbar links-->
-            
+
         </nav>
         <!-- /.Navbar -->
-        
+
     </header>
     <!--/.Double navigation-->
 
@@ -263,8 +263,9 @@
 
                 <!--First row-->
 
+
                 <div class="row ">
-                        {% for state , number in stateauto %}
+                            {%  for any, all in new %}
                     <!--First column-->
                     <div class="col-md-4 mb-3 ms-2 view  hm-blue-strong hoverable">
                         <!--Card-->
@@ -274,8 +275,8 @@
                             <div class="admin-up">
                                 <i class="fa fa-money blue darken-3"></i>
                                 <div class="data">
-                                    <p class=" font-weight-bold"><a href="{% url 'local' state=state %}">{{ state }}</a></p>
-                                    <h3>{{ number }}</h4>
+                                    <p class=" font-weight-bold">{{ any }} </p>
+                                    <h3>{{ all }}</h4>
                                 </div>
                             </div>
                             <!--/.Card Data-->
@@ -291,12 +292,9 @@
                             <!--/.Card content-->
                         </div>
                     </div>
-                    {% endfor %}
                         <!--/.Card-->
                     <!--/First column-->
-
-
-
+                            {% endfor %}
                 </div>
 
             </section>
@@ -304,272 +302,7 @@
 <!-- section intro 2 -->
 
             <!--Section: Intro-->
-
-<!-- section intro 2 end -->
-            <!--Section: Main Chart-->
-            <section class="section">
-
-                <!--Main row-->
-                <div class="row">
-
-                    <div class="col-md-12">
-                        <!--Card-->
-                        <div class="card card-cascade narrower">
-
-                            <!--Admin panel-->
-                            <div class="admin-panel">
-
-                                <!--First row-->
-                                <div class="row mb-1">
-
-                                    <!--First column-->
-                                    <div class="col-md-5">
-
-                                        <!--Panel title-->
-                                        <div class="view left primary-color">
-                                            <h2>Local Government With Most Participants </h2>
-                                        </div>
-                                        <!--/Panel title-->
-
-                                        <!--Panel data-->
-                                        <div class="card-block pt-2">
-
-                                            <table class="table no-header">
-                                                <tbody>
-                                                    <tr>
-                                                        <td><img src="{% static 'material/img/flags/us.png' %}" class="flag"> United States</td>
-                                                        <td>307</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="{% static 'material/img/flags/in.png' %}" class="flag"> India</td>
-                                                        <td>504</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="{% static 'material/img/flags/cn.png' %}" class="flag"> China</td>
-                                                        <td>613</td>
-                                                        <td>613</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="{% static 'material/img/flags/pl.png' %}" class="flag"> Poland</td>
-                                                        <td>208</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="{% static 'material/img/flags/it.png' %}" class="flag"> Italy</td>
-                                                        <td>314</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-
-                                            <button class="btn-flat waves-effect float-right">View full report</button>
-
-                                        </div>
-                                        <!--/Panel data-->
-                                    </div>
-                                    <!--/First column-->
-
-                                    <!--Second column-->
-                                    <div class="col-md-7">
-                                        <!--Cascading element-->
-                                        <div class="view right primary-color map-container">
-                                            <!--Main chart-->
-                                            <div id="world-map" style="width: 100%; height: 400px"></div>
-                                        </div>
-                                        <!--/Cascading element-->
-                                    </div>
-                                    <!--/Second column-->
-
-                                </div>
-                                <!--/First row-->
-
-                                <!--Second row-->
-                                <div class="row mb-0">
-                                    <!--First column-->
-                                    <div class="col-md-12">
-
-                                        <!--Panel content-->
-                                        <div class="card-block pt-0">
-
-                                            <div class="table-responsive">
-
-                                                <!--Table-->
-                                                <table class="table table-hover">
-                                                    <!--Table head-->
-                                                    <thead>
-                                                        <tr class="primary-color">
-                                                            <th>Campaign name</th>
-                                                            <th>Source</th>
-                                                            <th>Conversion rate</th>
-                                                            <th>Invested</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <!--/Table head-->
-
-                                                    <!--Table body-->
-                                                    <tbody>
-                                                        <tr class="none-top-border">
-                                                            <td>Newsletter</td>
-                                                            <td>Newsletter</td>
-                                                            <td>5%</td>
-                                                            <td>100$</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Facebook</td>
-                                                            <td>Facebook</td>
-                                                            <td>5%</td>
-                                                            <td>100$</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Adwords</td>
-                                                            <td>Adwords</td>
-                                                            <td>5%</td>
-                                                            <td>100$</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Sponsored post</td>
-                                                            <td>Sponsored post</td>
-                                                            <td>5%</td>
-                                                            <td>100$</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Newsletter 2</td>
-                                                            <td>Newsletter 2</td>
-                                                            <td>5%</td>
-                                                            <td>100$</td>
-                                                        </tr>
-                                                    </tbody>
-                                                    <!--/Table body-->
-                                                </table>
-                                                <!--/Table-->
-
-                                            </div>
-
-                                        </div>
-                                        <!--/.Panel content-->
-
-                                    </div>
-                                    <!--/First column-->
-                                </div>
-                                <!--/Second row-->
-
-                            </div>
-                            <!--/Admin panel-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-
-                </div>
-                <!--/Main row-->
-
-            </section>
-            <!--/Section: Main chart-->
-
-
-            <!--Classic admin cards-->
-            <section class="section section-intro">
-
-                <!--First row-->
-                <div class="row">
-                    <!--First column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card Primary-->
-                        <div class="card classic-admin-card card-primary">
-                            <div class="card-block">
-                                <div class="pull-right">
-                                    <i class="fa fa-money"></i>
-                                </div>
-                                <p>SALES</p>
-                                <h4>2000$</h4>
-                            </div>
-                            <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            <div class="card-block">
-                                <p>Better than last week (25%)</p>
-                            </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    </div>
-                    <!--/First column-->
-
-                    <!--Second column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card Primary-->
-                        <div class="card classic-admin-card deep-purple darken-4">
-                            <div class="card-block">
-                                <div class="pull-right">
-                                    <i class="fa fa-line-chart"></i>
-                                </div>
-                                <p>SUBSCRIPTIONS</p>
-                                <h4>200</h4>
-                            </div>
-                            <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            <div class="card-block">
-                                <p>Worse than last week (25%)</p>
-                            </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    </div>
-                    <!--/Second column-->
-
-                    <!--Third column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card Primary-->
-                        <div class="card classic-admin-card indigo">
-                            <div class="card-block">
-                                <div class="pull-right">
-                                    <i class="fa fa-pie-chart"></i>
-                                </div>
-                                <p>TRAFFIC</p>
-                                <h4>20000</h4>
-                            </div>
-                            <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            <div class="card-block">
-                                <p>Better than last week (75%)</p>
-                            </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    </div>
-                    <!--/Third column-->
-
-                    <!--Fourth column-->
-                    <div class="col-md-3 mb-1">
-                        <!--Card Primary-->
-                        <div class="card classic-admin-card purple">
-                            <div class="card-block">
-                                <div class="pull-right">
-                                    <i class="fa fa-bar-chart"></i>
-                                </div>
-                                <p>ORGANIC TRAFFIC</p>
-                                <h4>2000</h4>
-                            </div>
-                            <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            <div class="card-block">
-                                <p>Better than last week (25%)</p>
-                            </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    </div>
-                    <!--/Fourth column-->
-
-                </div>
-                <!--/First row-->
-
-            </section>
-            <!--/Classic admin cards-->
-
-
-        </div>
-    </main>
     <!--/Main layout-->
-
-
 
     <!-- SCRIPTS -->
 
@@ -588,7 +321,7 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="{% static 'material/js/mdb.min.js' %}"></script>
-    
+
     <!-- Customizer -->
     <script type="text/javascript" src="{% static 'material/js/customizer.min.js' %}"></script>
 

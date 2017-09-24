@@ -56,7 +56,7 @@ def page(request):
                                       mothers_maiden_name=mothers_maiden_name,
                                       address=address, state=states, local_government=local_government,
                                       district=district, landmark_identity=landmark_identity,
-                                      phone_number=phone_number, email=email,sex=sex,
+                                      phone_number=phone_number, email=email, sex=sex,
                                       communication_means2=communication_means2,
                                       communication_means1=communication_means1)
 

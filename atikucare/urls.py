@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^visualize/', 'atiku.view.visualize.page', name='visualize'),
     url(r'^index', 'atiku.views.page', name='home'),
     url(r'^getdetails/', 'atiku.view.getdetails.getdetails', name='states'),
+    url(r"^localgov/(?P<state>[^/]+)$", 'atiku.view.localgovanalysis.page', name='local'),
 ]

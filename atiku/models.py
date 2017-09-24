@@ -3,13 +3,14 @@ from django.db import models
 
 STATE_CHOICE = (('ABIA', 'ABIA'), ('ADAMAWA', 'ADAMAWA'), ('AKWAIBOM', 'AKWAIBOM'), ('ANAMBRA', 'ANAMBRA'),
           ('BAUCHI', 'BAUCHI'), ('BAYELSA', 'BAYELSA'), ('BENUE', 'BENUE'), ('BORNO', 'BORNO'),
-          ('CrossRivers', 'CrossRivers'), ('Delta','Delta'), ('Ebonyi','Ebonyi'), ('Edo','Edo'),
-          ('Ekiti', 'Ekiti'), ('Enugu', 'Enugu'), ('Gombe', 'Gombe'), ('Imo', 'Imo'), ('Jigawa', 'Jigawa'),
-          ('Kaduna', 'Kaduna'), ('Kano', 'Kano'), ('Katsina', 'Katsina'), ('Kebbi', 'Kebbi'), ('Kogi', 'Kogi'),
-          ('Kwara', 'Kwara'), ('Lagos', 'Lagos'), ('Nasarawa', 'Nasarawa'), ('Niger', 'Niger'), ('Ogun', 'Ogun'),
-          ('Ondo', 'Ondo'), ('Osun', 'Osun' ), ('Oyo', 'Oyo'), ('Plateau', 'Plateau'), ('Rivers', 'Rivers'),
-          ('Sokoto', 'Sokoto'), ('Taraba', 'Taraba'), ('Yobe', 'Yobe'), ('Zamfara', 'Zamfara')
+          ('CROSSRIVERS', 'CROSSRIVERS'), ('DELTA','DELTA'), ('EBONYI','EBONYI'), ('EDO','EDO'),
+          ('EKITI', 'EKITI'), ('ENUGU', 'ENUGU'), ('GOMBE', 'GOMBE'), ('IMO', 'IMO'), ('JIGAWA', 'JIGAWA'),
+          ('KADUNA', 'KADUNA'), ('KANO', 'KANO'), ('KATSINA', 'KATSINA'), ('KEBBI', 'KEBBI'), ('KOGI', 'KOGI'),
+          ('KWARA', 'KWARA'), ('LAGOS', 'LAGOS'), ('NASARAWA', 'NASARAWA'), ('NIGER', 'NIGER'), ('OGUN', 'OGUN'),
+          ('ONDO', 'ONDO'), ('OSUN', 'OSUN' ), ('OYO', 'OYO'), ('PLATEAU', 'PLATEAU'), ('RIVERS', 'RIVERS'),
+          ('SOKOTO', 'SOKOTO'), ('TARABA', 'TARABA'), ('YOBE', 'YOBE'), ('ZAMFARA', 'ZAMFARA')
 )
+
 # Create your models here.
 
 SEX_CHOICE = (
@@ -37,7 +38,7 @@ class ApplicantInfo (models.Model):
         return self.first_name + ' ' + self.last_name + '  ' + '-- ' + self.state + '  ' + 'State,' + '  ' + self.local_government + ' ' +'Local Government'
 
 class LocalGovernment(models.Model):
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=300)
     country = models.ForeignKey("State")
 
     def __str__(self):
@@ -45,7 +46,7 @@ class LocalGovernment(models.Model):
 
 
 class State(models.Model):
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=300)
 
     def __str__(self):
         return u'%s' % self.name

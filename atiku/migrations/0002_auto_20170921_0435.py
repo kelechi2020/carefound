@@ -12,8 +12,8 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-            model_name='applicantinfo',
-            name='mothers_maiden_name',
-            field=models.CharField(verbose_name='Mothers Maiden Name', max_length=40),
+            model_name='state',
+            name='name',
+            field=models.CharField(max_length=300),
         ),
     ]

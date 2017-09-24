@@ -7,13 +7,13 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('atiku', '0007_auto_20170917_0150'),
+        ('atiku', '0002_auto_20170921_0435'),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='applicantinfo',
-            name='landmark_identity',
-            field=models.CharField(max_length=400, blank=True, verbose_name='Landmark'),
+            model_name='localgovernment',
+            name='name',
+            field=models.CharField(max_length=300),
         ),
     ]
