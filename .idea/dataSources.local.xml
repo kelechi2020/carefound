@@ -8,5 +8,16 @@
       <auth-required>false</auth-required>
       <introspection-schemas>*:main</introspection-schemas>
     </data-source>
+    <data-source name="postgres@localhost" uuid="8205dc02-a415-4ef7-ba21-3902c0efb423">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="PostgreSQL - d5esjbkhssblsq@ec2-107-20-226-93.compute-1.amazonaws.com" uuid="f9ca1cfc-d41e-442e-a643-fb0486da97b7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>okuepbvwlybfgi</user-name>
+    </data-source>
   </component>
 </project>

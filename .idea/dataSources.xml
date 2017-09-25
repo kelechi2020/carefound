@@ -10,5 +10,17 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="8205dc02-a415-4ef7-ba21-3902c0efb423">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - d5esjbkhssblsq@ec2-107-20-226-93.compute-1.amazonaws.com" uuid="f9ca1cfc-d41e-442e-a643-fb0486da97b7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-107-20-226-93.compute-1.amazonaws.com:5432/d5esjbkhssblsq</jdbc-url>
+    </data-source>
   </component>
 </project>

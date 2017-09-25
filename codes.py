@@ -47,6 +47,7 @@ for all, any in s.items():
     state.save()
     for local in any:
         lg = LocalGovernment(name=local, country=state)
+        lg.save()
 
 a ={'FCT': ["Gwagwalada", "Kuje", "Abaji","Abuja Municipal","Bwari","Kwali", "Others"], 'ABIA': ["Aba North","Aba South","Arochukwu","Bende","Ikwuano","Isiala Ngwa North","Isiala Ngwa South","Isuikwuato","Obi Ngwa","Ohafia","Ohafia","Ugwunagbo","Ukwa East","Ukwa West","Umuahia North","Umuahia South","Umu Nneochi"],
     'ADAMAWA' : ["Demsa","Fufore","Ganye","Gayuk","Gombi","Hong","Jada","Lamurde","Madagali","Mayo Belwa","Michika","Mubi North","Mubi South","Numan","Shelleng","Song","Toungo","Yola North","Yola South"],

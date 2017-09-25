@@ -19,6 +19,20 @@ SEX_CHOICE = (
     )
 
 
+class LocalGovernment(models.Model):
+    name = models.CharField(max_length=300)
+    country = models.ForeignKey("State")
+
+    def __str__(self):
+        return u'%s' % self.name
+
+
+class State(models.Model):
+    name = models.CharField(max_length=300)
+
+    def __str__(self):
+        return u'%s' % self.name
+
 class ApplicantInfo (models.Model):
     first_name = models.CharField(verbose_name='First Name', max_length=40)
     last_name = models.CharField(verbose_name='Surname', max_length=40)
@@ -36,17 +50,3 @@ class ApplicantInfo (models.Model):
 
     def __str__(self):
         return self.first_name + ' ' + self.last_name + '  ' + '-- ' + self.state + '  ' + 'State,' + '  ' + self.local_government + ' ' +'Local Government'
-
-class LocalGovernment(models.Model):
-    name = models.CharField(max_length=300)
-    country = models.ForeignKey("State")
-
-    def __str__(self):
-        return u'%s' % self.name
-
-
-class State(models.Model):
-    name = models.CharField(max_length=300)
-
-    def __str__(self):
-        return u'%s' % self.name
